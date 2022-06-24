@@ -1,8 +1,8 @@
 # RWL-GNN 
 
-A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022.
+A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [Slides](https://drive.google.com/file/d/1Z0E9ualMfngrko_g1zdMu_VYB1IpcpCC/view?usp=sharing)
 
-The code is based on Pytorch adversarial repository, DeepRobust [(https://github.com/DSE-MSU/DeepRobust)](https://github.com/DSE-MSU/DeepRobust) and  [Pro-GNN](https://github.com/ChandlerBang/Pro-GNN)
+The code is based on Pytorch adversarial repository, DeepRobust [(https://github.com/DSE-MSU/DeepRobust)](https://github.com/DSE-MSU/DeepRobust) and [Pro-GNN](https://github.com/ChandlerBang/Pro-GNN)
 
 <div align=center><img src="joint.png" width="700"/></div>
 
@@ -26,20 +26,6 @@ of-the-art methods, both in accuracy and computational efficiency.
 
 ## Requirements
 See that in https://github.com/DSE-MSU/DeepRobust/blob/master/requirements.txt
-```
-matplotlib==3.1.1
-numpy==1.17.1
-torch==1.2.0
-scipy==1.3.1
-torchvision==0.4.0
-texttable==1.6.2
-networkx==2.4
-numba==0.48.0
-Pillow==7.0.0
-scikit_learn==0.22.1
-skimage==0.0
-tensorboardX==2.0
-```
 
 ## Installation
 To run the code, first you need to install DeepRobust:
@@ -56,8 +42,8 @@ python setup.py install
 ## Run the code
 After installation, you can clone this repository
 ```
-git clone https://github.com/ChandlerBang/Pro-GNN.git
-cd Pro-GNN
+git clone https://github.com/Bharat-Runwal/RWL-GNN.git
+cd RWL-GNN
 python train.py --seed 10 --dataset cora  --attack meta --ptb_rate 0 --epoch 400 --alpha 1.0  --gamma 1.0 --lambda_ 0.001 --lr  1e-3
 ```
 
