@@ -15,14 +15,14 @@ class RwlGNN:
     Parameters
     ----------
     model:
-        model: The backbone GNN model in AwlGNN
+        model: The backbone GNN model in RWL-GNN
     args:
         model configs
     device: str
         'cpu' or 'cuda'.
     Examples
     --------
-    See details in https://github.com/ChandlerBang/Pro-GNN.
+    See details in https://github.com/Bharat-Runwal/RWL-GNN.
     """
 
     def __init__(self,model, args, device):

@@ -15,14 +15,14 @@ class RwlGNN:
     Parameters
     ----------
     model:
-        model: The backbone GNN model in ProGNN
+        model: The backbone GNN model in RWLGNN
     args:
         model configs
     device: str
         'cpu' or 'cuda'.
     Examples
     --------
-    See details in https://github.com/ChandlerBang/Pro-GNN.
+    See details in https://github.com/Bharat-Runwal/RWL-GNN.
     """
 
     def __init__(self, model, args, device):
@@ -64,7 +64,7 @@ class RwlGNN:
         plt.show()
 
     def fit(self, features, adj, labels, idx_train, idx_val):
-        """Train Pro-GNN.
+        """Train RWL-GNN.
         Parameters
         ----------
         features :
