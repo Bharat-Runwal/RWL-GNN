@@ -50,7 +50,7 @@ parser.add_argument('--symmetric', action='store_true', default=False,
 
 args = parser.parse_args()
 
-if args.two_stage: 
+if args.two_stage=="y": 
     from RwlGNN_two import RwlGNN
 else:
     from RwlGNN import RwlGNN
