@@ -46,7 +46,7 @@ cd RWL-GNN
 python train.py --seed 10 --dataset cora  --attack meta --ptb_rate 0 --epoch 400 --alpha 1.0  --gamma 1.0 --lambda_ 0.001 --lr  1e-3
 ```
 [colab]: <https://colab.research.google.com/assets/colab-badge.svg>
-[RWL-GNN]: <https://github.com/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb>
+[RWL-GNN]: <https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb>
 
 ## Acknowledgements
 The code is based on :
