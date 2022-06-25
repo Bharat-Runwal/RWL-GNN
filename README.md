@@ -3,7 +3,7 @@
 A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Slides)](https://drive.google.com/file/d/1Z0E9ualMfngrko_g1zdMu_VYB1IpcpCC/view?usp=sharing)
 
 The code is based on Pytorch adversarial repository, DeepRobust [(https://github.com/DSE-MSU/DeepRobust)](https://github.com/DSE-MSU/DeepRobust) and [Pro-GNN](https://github.com/ChandlerBang/Pro-GNN)
-
+[![][colab]][composable-glide]
 <div align=center><img src="joint.png" width="700"/></div>
 
 ## Abstract 
@@ -46,6 +46,7 @@ git clone https://github.com/Bharat-Runwal/RWL-GNN.git
 cd RWL-GNN
 python train.py --seed 10 --dataset cora  --attack meta --ptb_rate 0 --epoch 400 --alpha 1.0  --gamma 1.0 --lambda_ 0.001 --lr  1e-3
 ```
+
 
 
 <!-- ## Cite
