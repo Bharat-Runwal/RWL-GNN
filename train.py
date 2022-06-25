@@ -1,3 +1,4 @@
+# Code Adopted from Pro-GNN(https://github.com/ChandlerBang/Pro-GNN)
 import time
 import argparse
 import numpy as np
@@ -12,20 +13,20 @@ from deeprobust.graph.utils import preprocess, encode_onehot, get_train_val_test
 # Training settings
 parser = argparse.ArgumentParser()
 parser.add_argument('--two_stage',type = str,help = "Use Two Stage",default="y")
-parser.add_argument('--optim',type = str,help = "Optimizer for SGL update",default="sgd")
-parser.add_argument('--lr_optim',type = float, help = "learning rate for the SGL update" ,default=1e-3)
+parser.add_argument('--optim',type = str,help = "Optimizer",default="sgd")
+parser.add_argument('--lr_optim',type = float, help = "learning rate for the graph weight update" ,default=1e-3)
 parser.add_argument('--debug', action='store_true',
         default=False, help='debug mode')
-parser.add_argument('--decay',type=str,default="n",help="whether to plot the acc or not")
+parser.add_argument('--decay',type=str,default="n",help="whether to use decay or not")
 parser.add_argument('--plots',type=str,default="n",help="whether to plot the acc or not")
-parser.add_argument('--test',type=str,default="y",help="whether to plot the acc or not")
+parser.add_argument('--test',type=str,default="y",help="Test only")
 parser.add_argument('--only_gcn', action='store_true',
         default=False, help='test the performance of gcn without other components')
 parser.add_argument('--no-cuda', action='store_true', default=False,
                     help='Disables CUDA training.')
 parser.add_argument('--seed', type=int, default=15, help='Random seed.')
 parser.add_argument('--lr', type=float, default=0.01,
-                    help='Initial learning rate.')
+                    help='Initial learning rate for GNN model.')
 parser.add_argument('--weight_decay', type=float, default=5e-4,
                     help='Weight decay (L2 loss on parameters).')
 parser.add_argument('--hidden', type=int, default=16,
@@ -38,22 +39,12 @@ parser.add_argument('--attack', type=str, default='meta',
         choices=['no', 'meta', 'random', 'nettack'])
 parser.add_argument('--ptb_rate', type=float, default=0.05, help="noise ptb_rate")
 parser.add_argument('--epochs', type=int,  default=400, help='Number of epochs to train.')
-# parser.add_argument('--alpha', type=float, default=5e-4, help='weight of l1 norm')
 parser.add_argument('--alpha', type=float, default=1, help='weight of Forbeius norm')
-parser.add_argument('--epochs_pre', type=int,  default=500, help='Number of epochs to train.')
-
-parser.add_argument('--eps', type=float, default=0.03, help='Epsilon')
-parser.add_argument('--l1', type=float, default=1.3, help='l1 weight')
-# parser.add_argument('--beta', type=float, default=1.5, help='weight of nuclear norm')
+parser.add_argument('--epochs_pre', type=int,  default=500, help='Number of epochs to train in Two-Stage.')
 parser.add_argument('--gamma', type=float, default=1, help='weight of GCN')
 parser.add_argument('--beta', type=float, default=0, help='weight of feature smoothing')
-# parser.add_argument('--phi', type=float, default=0, help='weight of symmetric loss')
 parser.add_argument('--inner_steps', type=int, default=2, help='steps for inner optimization')
 parser.add_argument('--outer_steps', type=int, default=1, help='steps for outer optimization')
-parser.add_argument('--lr_adj', type=float, default=0.01, help='lr for training adj')
-parser.add_argument('--lr_init', type=float, default=0.001, help='lr for training adj')
-parser.add_argument('--lr_decay_frequency', type=float, default=5, help='lr for training adj')
-parser.add_argument('--lr_decay_rate', type=float, default=0.1, help='lr for training adj')
 parser.add_argument('--symmetric', action='store_true', default=False,
             help='whether use symmetric matrix')
 
