@@ -43,7 +43,7 @@ After installation, you can clone this repository
 ```
 git clone https://github.com/Bharat-Runwal/RWL-GNN.git
 cd RWL-GNN
-python train.py --seed 10 --dataset cora  --attack meta --ptb_rate 0 --epoch 400 --alpha 1.0  --gamma 1.0 --lambda_ 0.001 --lr  1e-3
+python train.py --two_stage y --seed 10  --dataset cora --attack no --ptb_rate 0 --epochs 200  --epochs_pre 400 --alpha 1.0  --gamma 1.0 --beta 0.10 --lr_optim 1e-2 --lr 1e-3 
 ```
 [colab]: <https://colab.research.google.com/assets/colab-badge.svg>
 [RWL-GNN]: <https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb>
