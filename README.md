@@ -1,6 +1,6 @@
 # RWL-GNN 
 
-A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Slides)](https://drive.google.com/file/d/1Z0E9ualMfngrko_g1zdMu_VYB1IpcpCC/view?usp=sharing)
+A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Slides)](https://docs.google.com/presentation/d/1qDS09BlPXeO1VtDIVmji1r8ZzpUY4NmujLRa6Aw9QiQ/edit?usp=sharing)
 
 [![][colab]][RWL-GNN]
 <div align=center><img src="joint.png" width="700"/></div>
