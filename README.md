@@ -56,15 +56,11 @@ The code is based on :
 ## Cite:
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2208.01853,
-  doi = {10.48550/ARXIV.2208.01853},
-  url = {https://arxiv.org/abs/2208.01853},
-  author = {Runwal, Bharat and {Vivek} and Kumar, Sandeep},
-  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {Robust Graph Neural Networks using Weighted Graph Laplacian},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{Runwal2022RobustGN,
+  title={Robust Graph Neural Networks using Weighted Graph Laplacian},
+  author={Bharat Runwal and Vivek and Sandeep Kumar},
+  year={2022}
+}
 }
 
 ```
