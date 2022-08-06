@@ -56,5 +56,9 @@ The code is based on :
 ## Cite:
 
 ```
-@INPROCEEDINGS{9840814,  author={Runwal, Bharat and Vivek and Kumar, Sandeep},  booktitle={2022 IEEE International Conference on Signal Processing and Communications (SPCOM)},   title={Robustifying GNN Via Weighted Laplacian},   year={2022},  volume={},  number={},  pages={1-5},  doi={10.1109/SPCOM55316.2022.9840814}}
+@inproceedings{Runwal2022RobustGN,
+  title={Robust Graph Neural Networks using Weighted Graph Laplacian},
+  author={Bharat Runwal and Vivek and Sandeep Kumar},
+  year={2022}
+}
 ```
