@@ -56,9 +56,10 @@ The code is based on :
 ## Cite:
 
 ```
-@inproceedings{Runwal2022RobustGN,
+@article{runwal2022robust,
   title={Robust Graph Neural Networks using Weighted Graph Laplacian},
-  author={Bharat Runwal and Vivek and Sandeep Kumar},
+  author={Runwal, Bharat and Kumar, Sandeep and others},
+  journal={arXiv preprint arXiv:2208.01853},
   year={2022}
 }
 ```
