@@ -1,5 +1,5 @@
 <h1 align="center">RWL-GNN: Robustifying Graph Neural Networks via Weighted Laplacian </h1>
-<p align="center"> <a href="https://bharat-runwal.github.io/" id="website">Bharat Runwal</a><sup>1</sup>, Vivek<sup>2</sup>, [Sandeep Kumar](https://sites.google.com/view/sandeepkr/home)<sup>1</sup></p>
+<p align="center"> <a href="https://bharat-runwal.github.io/" target="_blank id="website">Bharat Runwal</a><sup>1</sup>, Vivek<sup>2</sup>, <a href="https://sites.google.com/view/sandeepkr/home" target="_blank id="website">Sandeep Kumar</a><sup>1</sup></p>
 <p align="center"><sup>1</sup> IIT Delhi,<sup>2</sup> Samsung Research Bangalore</p>
 
 <p align="center">
