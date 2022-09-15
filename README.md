@@ -7,6 +7,8 @@
         <img src="https://img.shields.io/badge/Preprint-arXiv-blue.svg" /></a>
   <a href="https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb" alt="Demo">
         <img src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
+  <a href="https://docs.google.com/presentation/d/1qDS09BlPXeO1VtDIVmji1r8ZzpUY4NmujLRa6Aw9QiQ/edit?usp=sharing" alt="Slides">
+        <img src="https://img.shields.io/badge/Slides-SPCOM-yellow.svg" /></a>
 </p>
 
 <p align="center">
