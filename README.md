@@ -1,6 +1,6 @@
 # RWL-GNN 
 
-A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Slides)](https://drive.google.com/file/d/1Z0E9ualMfngrko_g1zdMu_VYB1IpcpCC/view?usp=sharing)
+A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Paper)](https://arxiv.org/abs/2208.01853) [(Slides)](https://docs.google.com/presentation/d/1qDS09BlPXeO1VtDIVmji1r8ZzpUY4NmujLRa6Aw9QiQ/edit?usp=sharing)
 
 [![][colab]][RWL-GNN]
 <div align=center><img src="joint.png" width="700"/></div>
@@ -43,7 +43,7 @@ After installation, you can clone this repository
 ```
 git clone https://github.com/Bharat-Runwal/RWL-GNN.git
 cd RWL-GNN
-python train.py --seed 10 --dataset cora  --attack meta --ptb_rate 0 --epoch 400 --alpha 1.0  --gamma 1.0 --lambda_ 0.001 --lr  1e-3
+python train.py --two_stage y --seed 10  --dataset cora --attack no --ptb_rate 0 --epochs 200  --epochs_pre 400 --alpha 1.0  --gamma 1.0 --beta 0.10 --lr_optim 1e-2 --lr 1e-3 
 ```
 [colab]: <https://colab.research.google.com/assets/colab-badge.svg>
 [RWL-GNN]: <https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb>
@@ -53,4 +53,13 @@ The code is based on :
 - DeepRobust [(https://github.com/DSE-MSU/DeepRobust)](https://github.com/DSE-MSU/DeepRobust)
 - [Pro-GNN](https://github.com/ChandlerBang/Pro-GNN)
 
-## Cite
+## Cite:
+
+```
+@article{runwal2022robust,
+  title={Robust Graph Neural Networks using Weighted Graph Laplacian},
+  author={Runwal, Bharat and Kumar, Sandeep and others},
+  journal={arXiv preprint arXiv:2208.01853},
+  year={2022}
+}
+```
