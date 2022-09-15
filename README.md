@@ -56,7 +56,7 @@ python setup.py install
 ```
 
 ## Run the code
-After installation, you can clone this repository
+After installation, you can clone this repository or you can use the demo notebook here [COLAB](https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb)
 ```
 git clone https://github.com/Bharat-Runwal/RWL-GNN.git
 cd RWL-GNN
