@@ -6,7 +6,7 @@
   <a href="https://arxiv.org/pdf/2208.01853.pdf" alt="ArXiv">
         <img src="https://img.shields.io/badge/Preprint-arXiv-blue.svg" /></a>
   <a href="https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb" alt="Demo">
-        <img src="<https://colab.research.google.com/assets/colab-badge.svg" /></a>
+        <img src="https://colab.research.google.com/assets/colab-badge.svg" /></a>
 </p>
 
 <p align="center">
