@@ -17,7 +17,7 @@
 
 
 
-A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022.
+A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022 (Best Student Paper Award).
 <!-- 
 [![][colab]][RWL-GNN]
 <div align=center><img src="joint.png" width="700"/></div> -->
