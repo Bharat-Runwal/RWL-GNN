@@ -1,3 +1,20 @@
+<h1 align="center">RWL-GNN: Robustifying Graph Neural Networks via Weighted Laplacian </h1>
+<p align="center">Bharat Runwal<sup>1</sup>, Vivek<sup>2</sup>, Sandeep Kumar<sup>1</sup></p>
+<p align="center"><sup>1</sup> IIT Delhi,<sup>2</sup> Samsung Research Bangalore</p>
+
+<p align="center">
+  <a href="https://arxiv.org/pdf/2208.01853.pdf" alt="ArXiv">
+        <img src="https://img.shields.io/badge/Preprint-arXiv-blue.svg" /></a>
+  <a href="https://colab.research.google.com/github/Bharat-Runwal/RWL-GNN/blob/main/Demo_RWL_GNN.ipynb" alt="Demo">
+        <img src="<https://colab.research.google.com/assets/colab-badge.svg" /></a>
+</p>
+
+<p align="center">
+  <img src ="joint.png"  width="1000"/>
+</p>
+
+
+
 # RWL-GNN 
 
 A PyTorch implementation of "Robustifying Graph Neural Networks via Weighted Laplacian" Accepted at [SPCOM](https://ece.iisc.ac.in/~spcom/2022/) 2022. [(Paper)](https://arxiv.org/abs/2208.01853) [(Slides)](https://docs.google.com/presentation/d/1qDS09BlPXeO1VtDIVmji1r8ZzpUY4NmujLRa6Aw9QiQ/edit?usp=sharing)
