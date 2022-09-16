@@ -12,8 +12,7 @@
 </p>
 
 <p align="center">
-  ![my_image](joint.png)
-<!--   <img src ="joint.png"  width="1000"/> -->
+  <img src ="joint.png"  width="1000"/>
 </p>
 
 
