@@ -12,7 +12,8 @@
 </p>
 
 <p align="center">
-  <img src ="https://github.com/Bharat-Runwal/RWL-GNN/blob/f415140eee5c06db58696c3eb29c108cfc5bbdbb/joint.png"  width="1000"/>
+  ![my_image](joint.png)
+<!--   <img src ="joint.png"  width="1000"/> -->
 </p>
 
 
